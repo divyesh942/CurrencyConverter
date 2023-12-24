@@ -11,13 +11,15 @@ body{
 }
 .container{
     background-color: antiquewhite;
-    padding: 3%;
+    padding: 6%;
     border-radius: 10px;
     min-height: 45vh;
-    min-width: 45vh;
+    min-width: 37vh;
+    margin-right: 5%;
+    
 }
 form{
-    margin-top: 1.2rem;
+    margin-top: 1.5rem;
 }
 form select,input,button{
     width: 100%;
