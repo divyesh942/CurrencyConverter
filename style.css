@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: coral;
+}
+.container{
+    background-color: antiquewhite;
+    padding: 3%;
+    border-radius: 10px;
+    min-height: 45vh;
+    min-width: 45vh;
+}
+form{
+    margin-top: 1.2rem;
+}
+form select,input,button{
+    width: 100%;
+}
+form select,input{
+    border: none;
+    border-radius: 8px;
+    padding: 2.4%;
+    
+}
+.dropdown{
+    display: flex;
+    margin-top: 1.5rem;
+    gap: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.convert-img{
+    width:5rem;
+    height:2rem;
+    margin-top: 8%;
+}
+.msg{
+    margin-top: 2rem;
+}
+.select-container img{
+    width: 2rem;
+}
+p{
+    font-size: large;
+    font-weight: 400;
+}
+.select-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white;
+    border: 2px solid rgb(248, 248, 248);
+    border-radius: 5px;
+    padding: 2%;
+    width:6rem;
+    
+}
+button{
+    border: none;
+    padding: 3%;
+    background-color: rgb(190, 130, 245);
+    border-radius: 8px;
+    margin-top: 5%;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.msg{
+    margin-left: 15%;
+    margin-right: 15%;
+}
